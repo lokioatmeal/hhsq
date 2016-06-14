@@ -1,0 +1,243 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudioHQ</title>
+
+<script src="//use.typekit.net/lbc5qva.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css" />
+<link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body>
+
+<div class="row">
+
+  <!-- <div class="large-2 columns" data-sticky-container> -->
+  <div class="large-2 columns">
+    <!-- <div class="sticky" data-sticky> -->
+    <div>
+      <p class="brand">Studio<span>HQ</span></p>
+      <nav>
+        <ul class="vertical menu">
+          <li><a href="#"><i class="fi-layout"></i> <span>Dashboard</span></a></li>
+          <li class="active"><a href="#"><i class="fi-clipboard-notes"></i> <span>Classes</span></a></li>
+          <li><a href="#"><i class="fi-torsos"></i> <span>Students</span></a></li>
+          <li><a href="#"><i class="fi-credit-card"></i> <span>Payments</span></a></li>
+          <li><a href="#"><i class="fi-torso-business"></i> <span>Staff</span></a></li>
+          <li><a href="#"><i class="fi-widget"></i> <span>Settings</span></a></li>
+          <li><a href="#"><i class="fi-power"></i> <span>Log Out</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="large-10 columns">
+
+    <div class="row columns">
+      <h1>Happy Dance & Music</h1>
+      <ul>
+        <li class="active"><a href="#">Seattle, 4th & Pike</a></li>
+        <li class="hide"><a href="#">Seattle, 5th & Pine</a></li>
+      </ul>
+    </div>
+
+    <div class="row columns">
+      <div id="guts">
+        <h3>Studio Settings</h3>
+        <ul class="tabs" id="guts-tabs" data-tabs>
+          <li class="tabs-title"><a href="#guts-tabs-company">Company</a></li>
+          <li class="tabs-title is-active"><a href="#guts-tabs-locations">Locations</a></li>
+          <li class="tabs-title"><a href="#guts-tabs-class-types">Class Types</a></li>
+          <li class="tabs-title"><a href="#guts-tabs-managers">Managers</a></li>
+          <li class="tabs-title"><a href="#guts-tabs-billing-info">Billing Info</a></li>
+          <li class="tabs-title"><a href="#guts-tabs-merchant-account">Merchant Account</a></li>
+        </ul>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel" id="guts-tabs-company">
+            <h5>Guts Company Tab</h5>
+          </div>
+        </div>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel is-active" id="guts-tabs-locations">
+            <!-- <h5>Guts Locations Tab</h5> -->
+            <ul class="accordion" data-accordion data-allow-all-closed="true">
+
+
+<!-- 001 This should be drawn dynamically based on a data source. -->
+              <li class="accordion-item" id="location-wrap-001" data-accordion-item>
+                <a href="#" class="accordion-title">Seattle, 4th & Pike</a>
+                <div class="accordion-content row" data-tab-content>
+                  <div class="medium-7 columns">
+                    <div class="row columns">
+                      <label for="location-name-001">Location Name</label>
+                      <input type="text" placeholder="Location Name" id="location-name-001" name="location-name-001" value="Seattle, 4th & Pike" />
+                    </div>
+                    <div class="row">
+                      <div class="medium-6 columns">
+                        <label for="location-address-001">Address</label>
+                        <input type="text" placeholder="Address" id="location-address-001" name="location-address-001" value="" />
+                      </div>
+                      <div class="medium-6 columns">
+                        <label for="location-address-2-001">Address 2</label>
+                        <input type="text" placeholder="Address 2" id="location-address-2-001" name="location-address-2-001" value="" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="medium-6 columns">
+                        <label for="location-city-001">City</label>
+                        <input type="text" placeholder="City" id="location-city-001" name="location-city-001" value="" />
+                      </div>
+                      <div class="medium-3 columns super-select">
+                        <label for="location-state-001">State</label>
+                        <input type="hidden" placeholder="State" id="location-state-001" name="location-state-001" value="" />
+                        <div>
+                          <p>State</p>
+                          <ul>
+                            <li><a href="#">AZ</a></li>
+                            <li><a href="#">CA</a></li>
+                            <li><a href="#">ID</a></li>
+                            <li><a href="#">NV</a></li>
+                            <li><a href="#">OR</a></li>
+                            <li><a href="#">WA</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="medium-3 columns">
+                        <label for="location-zip-001">ZIP</label>
+                        <input type="text" placeholder="ZIP" id="location-zip-001" name="location-zip-001" value="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="medium-4 columns">
+                    <div class="row columns">
+                      <label for="location-contact-email-001">Contact Email</label>
+                      <input type="email" placeholder="Contact Email" id="location-contact-email-001" name="location-contact-email-001" value="" />
+                    </div>
+                    <div class="row columns">
+                      <label for="location-reply-to-email-001">Reply to Email</label>
+                      <input type="email" placeholder="Reply to Email" id="location-reply-to-email-001" name="location-reply-to-email-001" value="" />
+                    </div>
+                    <div class="row columns">
+                      <label for="location-phone-001">Phone</label>
+                      <input type="text" placeholder="Phone" id="location-phone-001" name="location-phone-001" value="" />
+                  </div>
+                </div>
+              </li>
+
+<!-- 001 This should be drawn dynamically based on a data source. -->
+              <li class="accordion-item" id="location-wrap-002" data-accordion-item>
+                <a href="#" class="accordion-title">Seattle, 5th & Pine</a>
+                <div class="accordion-content row" data-tab-content>
+                  <div class="medium-7 columns">
+                    <div class="row columns">
+                      <label for="location-name-002">Location Name</label>
+                      <input type="text" placeholder="Location Name" id="location-name-002" name="location-name-002" value="Seattle, 5th & Pine" />
+                    </div>
+                    <div class="row">
+                      <div class="medium-6 columns">
+                        <label for="location-address-002">Address</label>
+                        <input type="text" placeholder="Address" id="location-address-002" name="location-address-002" value="" />
+                      </div>
+                      <div class="medium-6 columns">
+                        <label for="location-address-2-002">Address 2</label>
+                        <input type="text" placeholder="Address 2" id="location-address-2-002" name="location-address-2-002" value="" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="medium-6 columns">
+                        <label for="location-city-002">City</label>
+                        <input type="text" placeholder="City" id="location-city-002" name="location-city-002" value="" />
+                      </div>
+                      <div class="medium-3 columns super-select">
+                        <label for="location-state-002">State</label>
+                        <input type="hidden" placeholder="State" id="location-state-002" name="location-state-002" value="" />
+                        <div>
+                          <p>State</p>
+                          <ul>
+                            <li><a href="#">AZ</a></li>
+                            <li><a href="#">CA</a></li>
+                            <li><a href="#">ID</a></li>
+                            <li><a href="#">NV</a></li>
+                            <li><a href="#">OR</a></li>
+                            <li><a href="#">WA</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="medium-3 columns">
+                        <label for="location-zip-002">ZIP</label>
+                        <input type="text" placeholder="ZIP" id="location-zip-002" name="location-zip-002" value="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="medium-4 columns">
+                    <div class="row columns">
+                      <label for="location-contact-email-002">Contact Email</label>
+                      <input type="email" placeholder="Contact Email" id="location-contact-email-002" name="location-contact-email-002" value="" />
+                    </div>
+                    <div class="row columns">
+                      <label for="location-reply-to-email-002">Reply to Email</label>
+                      <input type="email" placeholder="Reply to Email" id="location-reply-to-email-002" name="location-reply-to-email-002" value="" />
+                    </div>
+                    <div class="row columns">
+                      <label for="location-phone-002">Phone</label>
+                      <input type="text" placeholder="Phone" id="location-phone-002" name="location-phone-002" value="" />
+                  </div>
+                </div>
+              </li>
+
+
+            </ul>
+            <div class="row">
+              <div class="columns">
+                <h5><a href="#">Create New Location</a></h5>
+              </div>
+            </div>
+            <div id="guts-tabs-locations-actions" class="text-center">
+              <a href="#" class="cancel button secondary hollow">Cancel</a>
+              <a href="#" class="save button secondary disabled">Save Changes</a>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel" id="guts-tabs-class-types">
+            <h5>Guts Class Types Tab</h5>
+          </div>
+        </div>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel" id="guts-tabs-managers">
+            <h5>Guts Managers Tab</h5>
+          </div>
+        </div>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel" id="guts-tabs-billing-info">
+            <h5>Guts Billing Info Tab</h5>
+          </div>
+        </div>
+        <div class="tabs-content" data-tabs-content="guts-tabs">
+          <div class="tabs-panel" id="guts-tabs-merchant-account">
+            <h5>Guts Merchant Account Tab</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+</div>
+
+
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
